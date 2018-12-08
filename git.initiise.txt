@@ -1,0 +1,10 @@
+git init
+git add .
+git config --global user.name "aol-binod"
+git commit -m "first commit"
+git remote add original git@github.com:aol-binod/php_1.git
+git remote set-url original https://github.com/aol-binod/php_1.git
+git push -f original master
+git status
+git pull
+git clone https://github.com/aol-binod/php_1.git
